@@ -1,0 +1,26 @@
+{
+  "name": "repl_server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "format": "prettier-eslint --write \"src/**/*.ts\"",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "build": "tsc .",
+    "dev": "ts-node -T src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abhisek Pattnaik <abhisekp@engineer.com> (https://about.me/abhisekp)",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "eslint-config-airbnb-typescript": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.4",
+    "prettier-eslint-cli": "^5.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}

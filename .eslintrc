@@ -1,0 +1,7 @@
+{
+    "extends": ["airbnb-typescript/base"],
+    "env": {
+        "node": true,
+        "es6": true
+    }
+}
