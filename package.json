@@ -7,7 +7,7 @@
     "start": "node .",
     "format": "prettier-eslint --write \"src/**/*.ts\"",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
-    "build": "tsc .",
+    "build": "tsc",
     "dev": "ts-node -T src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
     "prettier-eslint-cli": "^5.0.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.3"
   }
 }
